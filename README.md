@@ -1,2 +1,2 @@
-# grandlarcenybitcoin
-Grand Larceny Bitcoin
+# Grand Larceny Bitcoin
+
