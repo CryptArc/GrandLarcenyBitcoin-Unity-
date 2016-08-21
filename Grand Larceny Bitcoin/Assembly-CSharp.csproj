@@ -45,6 +45,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Components\BitAddress\AddressGen.cs" />
+     <Compile Include="Assets\Components\BitAddress\TouchEntropy.cs" />
+     <Compile Include="Assets\Components\PGP\PGP.cs" />
+     <Compile Include="Assets\Components\PGP\PGPEncryptDecrypt.cs" />
+     <Compile Include="Assets\Components\PGP\PgpEncryptionKeys.cs" />
+     <Compile Include="Assets\Components\XMPP\XMPP.cs" />
+     <Compile Include="Assets\Model\Address.cs" />
+     <Compile Include="Assets\Model\Base58.cs" />
+     <Compile Include="Assets\Model\Base58CheckString.cs" />
+     <Compile Include="Assets\Model\Bip38Base.cs" />
+     <Compile Include="Assets\Model\Bip38Confirmation.cs" />
+     <Compile Include="Assets\Model\Bip38Intermediate.cs" />
+     <Compile Include="Assets\Model\Bip38KeyPair.cs" />
+     <Compile Include="Assets\Model\Bitcoin.cs" />
+     <Compile Include="Assets\Model\EncryptedKeyPair.cs" />
+     <Compile Include="Assets\Model\EscrowCode.cs" />
+     <Compile Include="Assets\Model\ExtraEntropy.cs" />
+     <Compile Include="Assets\Model\KeyCollection.cs" />
+     <Compile Include="Assets\Model\KeyCollectionItem.cs" />
+     <Compile Include="Assets\Model\KeyPair.cs" />
+     <Compile Include="Assets\Model\MiniKeyPair.cs" />
+     <Compile Include="Assets\Model\MofN.cs" />
+     <Compile Include="Assets\Model\PassphraseKeyPair.cs" />
+     <Compile Include="Assets\Model\PublicKey.cs" />
+     <Compile Include="Assets\Model\ShaPassphraseKeyPair.cs" />
+     <Compile Include="Assets\Model\StringInterpreter.cs" />
+     <Compile Include="Assets\ORM github.com_praeclarum_sqlite-net\AsyncTests.cs" />
+     <Compile Include="Assets\ORM github.com_praeclarum_sqlite-net\SQLite.cs" />
+     <Compile Include="Assets\ORM github.com_praeclarum_sqlite-net\SQLiteAsync.cs" />
+     <Compile Include="Assets\OpenSSL\Native.cs" />
+     <Compile Include="Assets\OpenSSL\OpenSslException.cs" />
+     <Compile Include="Assets\OpenSSL\Version.cs" />
+     <Compile Include="Assets\Scene_LoadingSystem\Scripts\LoadingActions.cs" />
+     <Compile Include="Assets\Scene_LoadingSystem\Scripts\LoadingController.cs" />
      <Compile Include="Assets\TextFx\Demo\Scripts\BaseVariableSetting.cs" />
      <Compile Include="Assets\TextFx\Demo\Scripts\ColourVariableSetting.cs" />
      <Compile Include="Assets\TextFx\Demo\Scripts\FloatVariableSetting.cs" />
@@ -79,12 +113,18 @@
      <Compile Include="Assets\TextFx\Scripts\TextFxUGUI.cs" />
      <Compile Include="Assets\TextFx\Scripts\VertexColour.cs" />
      <Compile Include="Assets\TextFx\Utilities\Boomlagoon\JSON\JSONObject.cs" />
+     <Compile Include="Assets\libs\CryptSharp\Helper.cs" />
+     <Compile Include="Assets\libs\CryptSharp\Pbkdf2.cs" />
+     <Compile Include="Assets\libs\CryptSharp\SCrypt.cs" />
+     <Compile Include="Assets\libs\CryptSharp\Salsa20Core.cs" />
      <None Include="Assets\TextFx\Resources\textfxAnimNames.txt" />
      <None Include="Assets\TextFx\Shader\Text Shader.shader" />
      <None Include="Assets\TextFx\3rd Party Asset Support\- NGUI Support Notes.txt" />
      <None Include="Assets\TextFx\Utilities\Boomlagoon\JSON\Readme.txt" />
      <None Include="Assets\TextFx\GETTING STARTED GUIDE.txt" />
      <None Include="Assets\TextFx\3rd Party Asset Support\- Text Mesh Pro Support Notes.txt" />
+     <None Include="Assets\libs\MathNet.Numerics.xml" />
+     <None Include="Assets\libs\Crypto.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -93,6 +133,15 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Crypto">
+ <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/libs/Crypto.dll</HintPath>
+ </Reference>
+ <Reference Include="MathNet.Numerics">
+ <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/libs/MathNet.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/libs/System.Threading.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

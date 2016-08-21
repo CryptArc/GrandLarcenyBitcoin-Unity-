@@ -1,10 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Boomlagoon/JSON/TestScene/JSONObjectTester.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Model/KeyPair.cs">
     <Files>
-      <File FileName="Assets/TextFx/Scripts/TextFxNative.cs" Line="12" Column="1" />
-      <File FileName="Assets/TextFx/Scripts/TextFxQuickSetupAnimConfigs.cs" Line="5" Column="18" />
-      <File FileName="Assets/Boomlagoon/JSON/TestScene/JSONObjectTester.cs" Line="2" Column="1" />
+      <File FileName="Assets/XMPP.cs" Line="1" Column="1" />
+      <File FileName="Assets/PGPEncryptDecrypt.cs" Line="1" Column="1" />
+      <File FileName="Assets/PgpEncryptionKeys.cs" Line="1" Column="1" />
+      <File FileName="Assets/TouchEntropy.cs" Line="108" Column="37" />
+      <File FileName="Assets/Model/KeyPair.cs" Line="1" Column="1" />
+      <File FileName="Assets/AddressGen.cs" Line="204" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
