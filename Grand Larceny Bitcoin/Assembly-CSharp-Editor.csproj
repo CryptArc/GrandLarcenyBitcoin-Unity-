@@ -88,6 +88,15 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
+ <Reference Include="Crypto">
+ <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/libs/Crypto.dll</HintPath>
+ </Reference>
+ <Reference Include="MathNet.Numerics">
+ <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/libs/MathNet.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/libs/System.Threading.dll</HintPath>
+ </Reference>
  <Reference Include="TextFxMenuItem">
  <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/TextFx/Editor/TextFxMenuItem.dll</HintPath>
  </Reference>
@@ -105,15 +114,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="Crypto">
- <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/libs/Crypto.dll</HintPath>
- </Reference>
- <Reference Include="MathNet.Numerics">
- <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/libs/MathNet.Numerics.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading">
- <HintPath>/Users/logos/Desktop/GrandLarcenyBitcoin/Grand Larceny Bitcoin/Assets/libs/System.Threading.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
