@@ -1,0 +1,43 @@
+Lib_Eula
+
+// SQlite-net (SQlite 3 databases)
+- Open Source: https://github.com/praeclarum/sqlite-net
+Compiled libs:
+-sqlite3.dll
+
+//OpenSSL
+- Open Source: https://www.openssl.org/
+Compiled libs:
+- ssleay32.dll
+- libeay32.dll
+
+//BounceyCastle PGP encryption
+- Open Source: https://www.bouncycastle.org/csharp/index.html
+- Specific lic: https://www.bouncycastle.org/csharp/licence.html
+Compiled libs:
+- Crypto.dll
+
+//Math.Net Numberics
+- Open Source: https://github.com/mathnet/mathnet-numerics
+Compiled libs:
+- MathNet.Numerics.dll
+
+//CryptSharp
+- Open  Source: https://github.com/ChrisMcKee/cryptsharp/blob/master/CryptSharp/ISCLicence.txt
+No compiled libs, source is present in /cryptsharp/
+
+//System.Threading for .NET 2.0 [Task Parallel Lib for .NET 3.5]
+- https://www.nuget.org/packages/TaskParallelLibrary/1.0.2856
+- Microsoft Lic: https://msdn.microsoft.com/en-us/hh295787
+Compiled libs:
+- System.Threading.dll
+
+
+
+Fonts:
+
+//Oswald Bold and Oswald Regular fonts
+- Open Source: https://www.fontsquirrel.com/fonts/oswald [click license]
+
+
+
